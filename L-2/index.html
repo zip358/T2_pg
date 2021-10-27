@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>T2プログラマーがコードを10年書いている お問い合わせフォーム</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row m-5 p-5">
+            <div class="col-12">
+                <p><a href="../index.html">Top page</a></p>
+            </div>
+        </div>
+        <div class="col-12">
+            お名前 <input id="input1" class="form-control" type="text" name="name" placeholder="お名前を入力ください">
+            <div class="form-group">
+                <label for="textarea1">内容</label>
+                <textarea id="textarea1" class="form-control" name="txt" rows="3"></textarea>
+                <p><span id="cnt">0</span>文字</p>
+                <button class="btn btn-primary" id="btn1" type="button">内容確認</button>
+            </div>
+        </div>
+        <div class="col-12 view">
+            <p id="name_print"></p>
+            <p id="txt_print"></p>
+        </div>        
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
