@@ -12,3 +12,5 @@ https://www.youtube.com/watch?v=ltWezx_3fQk
 https://www.youtube.com/watch?v=am-BShXaVuI  
 T2 Milliseconds DEMO  
 https://www.youtube.com/watch?v=JLQBY0m5yvU  
+T2 おみくじ DEMO  
+https://www.youtube.com/watch?v=1jkmHn0xEb4  
