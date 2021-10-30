@@ -1,4 +1,4 @@
-document.body.addEventListener("mousemove",function(e){
+document.body.addEventListener("mouseover",function(e){//mousemove
     console.log(e);
     let X = e.screenX;
     let Y = e.screenY;
