@@ -1,6 +1,8 @@
 document.body.addEventListener("mouseover",function(e){
     //console.log(e);
-    document.getElementById("X").innerText = e.screenX;
-    document.getElementById("Y").innerText = e.screenY;
-    document.body.style.backgroundColor = "RGB(" +  Math.floor((e.screenY % 255 + e.screenX % 255) % 255) +"," +  Math.floor(e.screenX % 255) +"," +  Math.floor(e.screenY % 255) +")";
+    let X = e.screenX;
+    let Y = e.screenY;
+    document.getElementById("X").innerText = X;
+    document.getElementById("Y").innerText = Y;
+    document.body.style.backgroundColor = "RGB(" +  Math.floor((Y % 255 + X % 255) % 255) +"," +  Math.floor(X % 255) +"," +  Math.floor(Y % 255) +")";
 });
