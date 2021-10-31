@@ -19,8 +19,8 @@ document.getElementById("eto").innerText = (function(){
 
     str = "";
     for (const key in eto) {
-        console.log(eto[key].no,(d.getFullYear % 12));
-        if(eto[key].no ===(d.getFullYear % 12)){
+        console.log(eto[key].no,(d.getFullYear() % 12));
+        if(eto[key].no ===(d.getFullYear() % 12)){
            str = eto[key].eto + `[${eto[key].yomi}]`;
         }
     }
