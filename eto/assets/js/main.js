@@ -14,9 +14,7 @@ var eto = [
 ];
 
 document.getElementById("eto").innerText = (function(){
-
     let d = new Date();
-
     str = "";
     for (const key in eto) {
         console.log(eto[key].no,(d.getFullYear() % 12));
