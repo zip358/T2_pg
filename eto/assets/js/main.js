@@ -16,8 +16,10 @@ var eto = [
 document.getElementById("eto").innerText = (function(){
 
     let d = new Date();
+
     str = "";
     for (const key in eto) {
+        console.log(eto[key].no,(d.getFullYear % 12));
         if(eto[key].no ===(d.getFullYear % 12)){
            str = eto[key].eto + `[${eto[key].yomi}]`;
         }
